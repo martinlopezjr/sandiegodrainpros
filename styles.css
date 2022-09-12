@@ -644,7 +644,6 @@ button{
 
 .articleCard h2 {
 	text-align: left;
-
 }
 
 .articleCard p{
@@ -874,8 +873,27 @@ footer{
 }
 
 /*services universal page styles*/
+.servicesBgContainer{
+	position: relative;
+	text-align: center;
+
+}
+
+.servicesBgContainer img{
+  display: block;
+	margin: auto;
+	width: 50%;
+	min-width: 310px;
+	padding-top: 13rem;
+}
+.servicesBgContainer{
+	background-color: blue;
+	height:50%;
+}
 .servicesContent{
-	padding: 0 3rem;
+	padding: 8rem 2rem;
+	max-width: 750px;
+	margin: 0 auto;
 }
 
 .servicesContent h3{
