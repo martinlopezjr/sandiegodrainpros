@@ -21,11 +21,11 @@
 
         <nav id="topNav">
             <ul>
-              <li><a href="home.html">home</a></li>
-              <li><a href="home.html#services">services</a></li>
-              <li><a href="home.html#about">about</a></li>
-              <li><a href="home.html#careers">careers</a></li>
-              <li><a href="home.html#coupons">coupons</a></li>
+              <li><a href="index.html">home</a></li>
+              <li><a href="index.html#services">services</a></li>
+              <li><a href="index.html#about">about</a></li>
+              <li><a href="index.html#careers">careers</a></li>
+              <li><a href="index.html#coupons">coupons</a></li>
               <li><a href="#">contact</a></li>
             </ul>
         </nav>
@@ -61,59 +61,64 @@
      </main>
 
 
-    <section id="serviceSection">
-      <div class="contactContent">
-      <h3>get in touch</h3>
-      <h1>  How can we be of service</h1>
+     <section id="serviceSection">
 
-      <div class="orCall">
-        Feel free to send us a message and we will
-        get to you as soon as possible.
-        Or
-        feel free to call us at
-        <span>(858)555-8888</span>
+       <div id="bigFormFlexWrapper">
+       <div class="contactContent">
+       <h3>get in touch</h3>
+       <h1>  How can we be of service</h1>
 
-      </div>
-    </div>
+       <div class="orCall">
+         <p>
+         Feel free to send us a message and we will
+         get to you as soon as possible.<br />
+         Or<br />
+         feel free to call us at
+         <br /><span class="formTel"> <a href="tel:+(619) 300-4781">(619) 300-4781</a></span>
+       </p>
+       </div>
+     </div>
 
-      <form class="contactForm" action="index.html" method="post">
-        <div>
-          <label for="fname"></label>
-          <input type="text" id="fname" name="fname" placeholder="first name">
-        </div>
+        <div id="bigContactForm">
+         <form class="contactForm" action="index.html" method="post">
+           <div>
+             <label for="fname">First Name </label>
+             <input type="text" id="fname" name="fname">
+           </div>
 
-        <div>
-          <label for="lname"></label>
-          <input type="text" id="lname" name="lname" placeholder="last name">
-        </div>
+           <div>
+             <label for="lname">Last Name</label>
+             <input type="text" id="lname" name="lname">
+           </div>
 
-        <div>
-          <label for="phone"></label>
-          <input type="tel" id="phone" name="phone" placeholder="(555)555-5555"/>
-        </div>
+           <div>
+             <label for="phone">Phone</label>
+             <input type="tel" id="phone" name="phone">
+           </div>
 
-          <div>
-            <label for="email">Email</label>
-              <input type="email" id="email" name="email" value="name@email.com" required>
+             <div>
+               <label for="email">Email</label>
+                 <input type="email" id="email" name="email" required>
+             </div>
+
+           <div>
+             <label for="address">Address</label>
+             <input type="text" id="address">
+           </div>
+
+           <div id="message">
+             <label for="msg">Message</label>
+             <textarea id="msg" name="user_message" rows="10" cols="38"></textarea>
+           </div>
+
+          <div id="submitButton">
+            <input type="submit" name="submit" value="Send Message">
           </div>
 
-        <div>
-          <label for="address"></label>
-          <input type="text" id="address" placeholder="address">
-        </div>
-
-        <div id="message">
-          <label for="msg"></label>
-          <textarea id="msg" name="user_message" rows="10" cols="38"placeholder="message"></textarea>
-        </div>
-
-       <div id="submitButton">
-         <input type="submit" name="submit" value="send">
+         </form>
+         </div>
        </div>
-
-      </form>
-    </section>
-
+     </section>
     <section id="areasServed">
 
         <div class="locationIconRed">
@@ -172,6 +177,5 @@
 
     </footer>
 </div>
-<!--</div> -->
   </body>
 </html>

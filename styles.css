@@ -885,10 +885,11 @@ footer{
 	width: 50%;
 	min-width: 310px;
 	padding-top: 13rem;
+	padding-bottom: 13rem;
 }
 .servicesBgContainer{
 	background-color: blue;
-	height:50%;
+	height:30rem;
 }
 .servicesContent{
 	padding: 8rem 2rem;
